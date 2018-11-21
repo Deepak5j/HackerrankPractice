@@ -2,16 +2,83 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title>Buttons Grid</title>
+    <title>HR Practice Solutions</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <style>
+      body {
+        margin: 0px;
+        background-color: rgba(0, 0, 0, 1);
+        width: 100%;
+      }
       h1 {
         text-align: center;
-        border: 2px dotted;
+        border: 1px rgb(1, 15, 206) solid;
+        color: rgb(1, 15, 206);
+        margin: 30px 20px 30px 20px; 
+      }
+      h1:hover {
+        border: 1px rgb(206, 15, 1) solid;
+      }
+      .main {
+        margin-left: 20%;
+        text-align: left;
+        color: blue;
+        font-size: 20px;
+      }
+      @media only screen and (max-width: 600px) {
+        h1 {
+          font-size: 20px;
+        }
+        .main {
+          font-size: 15px;
+          margin-left: 5%;
+        }
+        body {
+          width: 90%;
+        }
+      }
+      a {
+        color: hotpink;
+        text-decoration: none;
+      }
+      a:hover {
+        color: red;
+      }
+      a:visited2 {
+        color: green;
+      }
+      dt {
+        font-weight: bold;
+        font-stretch: expanded;
+      }
+      li {
+        padding-top: 1px;
+      }
+      h2 {
+        text-align: center;
+        margin-top: 200px;
       }
     </style>
   </head>
   <body>
-    <h1>Hackerrank Practice Solutions</h1>
-    <a href="https://deepak5j.github.io/HackerrankPractice/10 Days of Javascript/Day 8- Buttons Container/">Day 8: Buttons Container</a>
+    <header><h1>Hackerrank Practice Solutions</h1></header>
+    <section class="main">
+      <dl>
+        <dt>10 DAYS OF JAVASCRIPT</dt>
+        <dd>
+            <li>
+                <a href="https://deepak5j.github.io/HackerrankPractice/10 Days of Javascript/Day 8- Buttons Container/">
+                  Day 8: Buttons Container</a>
+            </li>
+        </dd>
+      </dl>
+    </section>
+    <footer>
+      <h2>
+        <i style="font-size:24px;;" class="fa">
+          <a href="https://github.com/Deepak5j">&#xf09b;</a>
+        </i>
+      </h2>
+    </footer>
   </body>
 </html>
